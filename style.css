@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Century Gothic"
+}
+.signup-body, .signin-body, .index-body{
+    background-image: url("images/event.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.dashboard-body{
+    background: rgba(235, 239, 240, 0.51);
+
+}
+
+input[type='text']::placeholder{
+    color:rgba(151, 24, 24, 0.895);
+}
+
+.sidenav{
+    height: 0;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    overflow-x: hidden;
+    transition: 0.3s;
+
+    }
+
+
+    .sidenav a{
+        
+    display: block;
+    padding: 10px 8px 10px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: black;
+    
+    text-transform: capitalize;
+    
+}
+
+.sidenav li:hover{
+    background: rgba(8, 159, 164, 0.549);
+    transition: 0.2s ease;
+    }
+
+    
+      #main{
+        transition: margin-top .3s ease-in-out;
+        overflow: hidden;
+    
+    }
+    .body-container{
+        width: 95vw;
+        margin-left: 15px;
+    }
+    .image:hover{
+        cursor: pointer;
+    }
+    .dashv1, .dashv2{
+        width: 98%;
+    }
+
+    .card{
+        transition: transform 0.2s ease-in-out;
+    }
+    .card:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .manageAccount-body{
+        background: rgba(180, 196, 198, 0.51);
+
+    }
+    .admin-body-view{
+        background: rgba(180, 196, 198, 0.51);
+
+    }
+    #drop{
+        cursor: pointer;
+    }
+
+    .tutorial-body{
+        background: rgba(180, 196, 198, 0.51);
+
+    }
+    .tuts-list li a:hover{
+        background: rgba(180, 196, 198, 0.51);
+        padding: 15px;
+        transition: 0.2s;
+
+    }
